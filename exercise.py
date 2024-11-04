@@ -80,3 +80,9 @@ moat_width = 50
 castle_height = 2 # castle_height = 200
 moat_width /= 2 # moat_width = moat-width / 2
 print(castle_height, moat_width)
+
+
+torch_lit = True
+
+if torch_lit == True:
+    print("venture forth into the cave!")
