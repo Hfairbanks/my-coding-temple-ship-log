@@ -86,3 +86,89 @@ torch_lit = True
 
 if torch_lit == True:
     print("venture forth into the cave!")
+
+    is_student = False
+    is_student = True
+
+    if is_student:
+     print("you get a 50% student!")
+    elif "is_senior":
+        print("seniors enjoy a 40% discount!")
+    else:
+       print("regular entry fee applies!")
+
+
+    is_friendly = False
+    has_quest = True
+
+    if not is_friendly:
+       print("Be cautious! This character night not be helpful !")
+    elif has_quest: 
+       print("This character has a quest for you!")
+    else:
+       print("Just a regular village passing by.")
+
+
+    
+        
+    want_veggie = True
+    likes_spice = False
+
+    if want_veggie and likes_spice:
+          print("How about a spicy veggie wrap?")
+    elif want_veggie:
+        print("try our classic veggie burger!")
+    else:
+          print("check out our grill menu!")
+
+
+         
+         
+    age= int(input("enter your age:"))
+rating= input ("enter movie rating (g, pg, pg-13, r)")
+
+if rating == "g":
+   print("you can watch the movie!")
+elif rating == "pg" and age >= 7:
+   print("you can watch the movie!")
+elif rating == "pg-13 and age >= 13":
+   print("you can watch the movie!")
+elif rating == "r" and age >= 17:
+   print("you can watch the movie!")
+else:
+   print("you are not allowed to watch this movie")
+
+
+temperature = float(input("enter today's temperature in fahrenheit"))
+if temperature <20:
+   print("wear a heavy coat and scarf!")
+elif 20<= temperature <50:
+   print("it is a little chilly. make sure to wear a light coat")
+elif 50<= temperature <= 70:
+   print("it might be good to wear a t-shirt and long pants")
+else:
+   
+
+   grade = float(input)("enter your grade")("0-100:")
+
+   if grade >=90:
+      print("your letter grade is a.")
+   elif grade >=80:
+      print("your letter grade is b.")
+   elif grade >=70:
+      print("your letter grade is c.")
+   elif grade >=60:
+      print("your letter grade is d.")
+   else:
+      print("your letter grade is f.")
+
+
+      exercise_minutes = int(input)("how many minutes do you exercise daily?")
+      if exercise_minutes <30:
+         print("you should consider exercising more for better health!")
+      elif 30 <= exercise_minutes <=60:
+         print("great job staying active!")
+      else:
+         print("you're an exercise superstar!")
+
+
