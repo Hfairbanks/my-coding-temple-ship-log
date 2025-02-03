@@ -8,8 +8,12 @@ if place == "forest":
         print("You found a boat!") 
 elif place == "cave":
     print("You find a hidden treasure!")
+
+
 elif place == "cave":
     print("light a torch")
 elif place == "forest":
     print("proceed in the dark")
+else:
+    print("invalid place chosen.")
     
